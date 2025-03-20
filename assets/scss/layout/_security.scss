@@ -65,6 +65,9 @@
     &-img{
         margin-right: 20px;
         width: 70px;
+        & img{
+            margin-left: 11px;
+        }
     }
     &-link{
         & a{
