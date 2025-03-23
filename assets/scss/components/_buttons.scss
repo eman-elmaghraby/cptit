@@ -794,6 +794,7 @@
 }
 
 .hero-btn{
+	cursor: pointer !important;
 	     background: linear-gradient(180deg, white 100%, #133D75 100%);
 	color: var(--tp-common-blue-1) !important;
 	&:hover{
