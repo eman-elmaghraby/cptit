@@ -6747,14 +6747,14 @@ input[type=color] {
 .tp-payment-method__line-1 .circle-customers6, .tp-payment-method__line-2 .circle-customers6, .tp-payment-method__line-3 .circle-customers6, .tp-payment-method__line-4 .circle-customers6, .tp-payment-method__line-5 .circle-customers6, .tp-payment-method__line-6 .circle-customers6, .tp-payment-method__line-7 .circle-customers6, .tp-payment-method__line-8 .circle-customers6, .tp-payment-method__line-9 .circle-customers6, .tp-payment-method__line-10 .circle-customers6, .tp-payment-method__line-11 .circle-customers6, .tp-payment-method__line-12 .circle-customers6, .tp-payment-method__line-13 .circle-customers6, .tp-payment-method__line-14 .circle-customers6, .tp-payment-method__line-15 .circle-customers6, .tp-payment-method__line-16 .circle-customers6 {
   background-color: var(--tp-grey-2);
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 .tp-payment-method__line-1 .circle-customers7, .tp-payment-method__line-2 .circle-customers7, .tp-payment-method__line-3 .circle-customers7, .tp-payment-method__line-4 .circle-customers7, .tp-payment-method__line-5 .circle-customers7, .tp-payment-method__line-6 .circle-customers7, .tp-payment-method__line-7 .circle-customers7, .tp-payment-method__line-8 .circle-customers7, .tp-payment-method__line-9 .circle-customers7, .tp-payment-method__line-10 .circle-customers7, .tp-payment-method__line-11 .circle-customers7, .tp-payment-method__line-12 .circle-customers7, .tp-payment-method__line-13 .circle-customers7, .tp-payment-method__line-14 .circle-customers7, .tp-payment-method__line-15 .circle-customers7, .tp-payment-method__line-16 .circle-customers7 {
   background-color: var(--tp-grey-1);
   border-radius: 50%;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
 }
 .tp-payment-method__line-1 span, .tp-payment-method__line-2 span, .tp-payment-method__line-3 span, .tp-payment-method__line-4 span, .tp-payment-method__line-5 span, .tp-payment-method__line-6 span, .tp-payment-method__line-7 span, .tp-payment-method__line-8 span, .tp-payment-method__line-9 span, .tp-payment-method__line-10 span, .tp-payment-method__line-11 span, .tp-payment-method__line-12 span, .tp-payment-method__line-13 span, .tp-payment-method__line-14 span, .tp-payment-method__line-15 span, .tp-payment-method__line-16 span {
   position: absolute;
