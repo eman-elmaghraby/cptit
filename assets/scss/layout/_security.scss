@@ -7,43 +7,20 @@
 .tp-security{
     &-slider-wrapper{
         position: relative;
-        &::after{
-            position: absolute;
-            content: "";
-            left: 0;
-            right: 0;
-            top: -50px;
-            width: 1320px;
-            height: 230px;
-            margin: 0 auto;
-            border-radius: 30px;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            z-index: -1;
-            overflow: hidden;
-            @media #{$xl}{
-                width: 1000px;
-            }
-            @media #{$lg}{
-                width: 900px;
-                height: 200px;
-            }
-            @media #{$xs}{
-                display: none;
-            }
-        }
+     
     }
     &-wrapper{
         background: #FFFFFF;
         border-radius: 100px;
-        padding: 14px 14px;
+        padding: 3px 25px;
+        min-width: 176px;
+        height: 51px;
         transition: 0.3s;
-        text-align: center;
     
         &:hover{
-            background-color: var(--tp-grey-2);
+            background-color: var(--tp-common-blue-1);
             & .tp-security-title-sm{
-                color: var(--tp-common-blue-2);
+                color: var(--tp-common-white);
             }
             & .tp-security-link{
                 & a{

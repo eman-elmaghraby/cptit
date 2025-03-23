@@ -674,6 +674,9 @@
         top: 0;
         left: 0;
         right: 0;
+        height: 72px;
+        display: flex;
+        align-items: center;
     }
     &__plr{
         padding-left: 310px;
@@ -687,12 +690,12 @@
             padding-right: 180px;
         }
         @media #{$xl}{
-            padding-left: 80px;
-            padding-right: 80px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
         @media #{$lg}{
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
         @media #{$md}{
             padding: 15px 0;
@@ -794,7 +797,7 @@
                         }
                     }
                     & > a{
-                        padding: 40px 0;
+                        padding: 25px 0;
                         font-weight: 500;
                         font-size: 16px;
                         line-height: 14px;
@@ -822,7 +825,7 @@
         }
     }
     &__login{
-        font-weight: 600;
+        font-weight: 500;
         font-size: 15px;
         line-height: 12px;
         letter-spacing: -0.02em;
@@ -832,11 +835,7 @@
             color: var(--tp-theme-2);
         }
     }
-    &__right{
-        & a{
-            margin-left: 25px;
-        }
-    }
+    
 }
 
 .inner-header-2{

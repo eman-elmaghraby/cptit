@@ -1365,20 +1365,40 @@ if ($('.tp-header-top-animation').length > 0) {
 
 
 // hero's height
-function adjustHeroHeight() {
-    const header = document.querySelector('.tp-header-height');
-    const hero = document.querySelector('.tp-hero-2__area');
+// function adjustHeroHeight() {
+//     const header = document.querySelector('#header-sticky');
+//     const hero = document.querySelector('.hero');
 
-    if (header && hero) {
-        const headerHeight = header.offsetHeight;
-        hero.style.height = `calc(100vh - ${headerHeight}px)`;
-    }
-}
+//     if (header && hero) {
+//         const headerHeight = header.offsetHeight;
+//         hero.style.height = `calc(100vh - ${headerHeight}px)`;
+//     }
+// }
 
-// Run on page load and resize
-window.addEventListener('load', adjustHeroHeight);
-window.addEventListener('resize', adjustHeroHeight);
+// // Run on page load and resize
+// window.addEventListener('load', adjustHeroHeight);
+// window.addEventListener('resize', adjustHeroHeight);
 
 
 
+// function adjustHeroHeight() {
+//     const header = document.querySelector('#header-sticky');
+//     const hero = document.querySelector('.hero');
+
+//     if (header && hero) {
+//         const headerHeight = header.offsetHeight;
+//         console.log("Header Height:", headerHeight);
+
+//         if (headerHeight > 0) {
+//             hero.style.height = `calc(100vh - ${headerHeight}px)`;
+//         }
+//     }
+// }
+
+// const observer = new MutationObserver(adjustHeroHeight);
+// const header = document.querySelector('.tp-header-height');
+
+// if (header) {
+//     observer.observe(header, { attributes: true, childList: true, subtree: true });
+// }
 

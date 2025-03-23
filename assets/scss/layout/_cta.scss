@@ -10,12 +10,34 @@
         background-size: cover;
         border-radius: 40px;
         padding: 70px 40px;
+        overflow: hidden;
+        & .img-1{
+            position:absolute;
+            top:0;
+            left: 0;
+            width: 100;
+            height: 100%;
+        }
+        & .img-2{
+            position: absolute;
+            top: 0px;
+            right: 0;
+        }
+        & .img-3{
+            position: absolute;
+            top: 0;
+            right: 0px;
+        }
     }
     &-content{
+        & h3{
+            font-weight: 500;
+           
+        }
         & p{
             font-weight: 400;
-            font-size: 18px;
-            line-height: 24px;
+            font-size: 20px;
+            line-height: 33px;
             color: rgba(255, 255, 255, 0.8);
             font-family: var(--tp-ff-mont);
             padding-bottom: 20px;
@@ -29,6 +51,14 @@
                 & br{
                     display: none;
                 }
+            }
+        }
+        & a{
+            color: var(--tp-common-blue-1);
+            background: linear-gradient(180deg, white 100%, #133D75 100%);
+            &:hover{
+                color: white;
+                background: linear-gradient(180deg, #133D75 100%  100%, white 100%);
             }
         }
     }

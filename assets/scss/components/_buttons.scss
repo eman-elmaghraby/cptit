@@ -91,6 +91,7 @@
 	}
 }
 .tp-btn-green-sm{
+	margin-left: 9px;
 	display: inline-block;
 	color: var(--tp-common-white);
 	font-family: var(--tp-ff-mont);
@@ -789,5 +790,14 @@
 	}
 	&:hover{
 		color: var(--tp-common-yellow-3);
+	}
+}
+
+.hero-btn{
+	     background: linear-gradient(180deg, white 100%, #133D75 100%);
+	color: var(--tp-common-blue-1) !important;
+	&:hover{
+		background: linear-gradient(180deg, #133D75 100%, white 0%) !important;
+		color: white !important;
 	}
 }

@@ -145,8 +145,8 @@
     background: linear-gradient(180deg, #FFFFFF36 -21.00%, #2C9DE1 79%);
     &-border-shape{
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -4px;
+        left: -10px;
         width: 100%;
         height: 102%;
         z-index: -1;

@@ -124,7 +124,7 @@
         & p{
             font-weight: 400;
             font-size: 18px;
-            line-height: 16px;
+            line-height: 26px;
             @media #{$xs}{
                 font-size: 17px;
             }
@@ -132,14 +132,14 @@
     }
     &__shape{
         position: absolute;
-        top: -145px;
+        top: -70px;
         left: 0;
         width: 100%;
         @media #{$md}{
-            top: -75px;
+            top: -45px;
         }
         @media #{$xs}{
-            top: -53px;
+            top: -20px;
         }
 
         & img{
@@ -248,7 +248,7 @@
     &__title-sm{
         font-weight: 600;
         font-size: 22px;
-        line-height: 16px;
+        line-height: 21px;
         color: var(--tp-common-black);
         font-family: var(--tp-ff-mont);
         padding-bottom: 0;

@@ -3,11 +3,27 @@
 /*----------------------------------------*/
 /*  16. HERO CSS START
 /*----------------------------------------*/
-
+.hero {
+    position: relative !important;
+    height: calc(100vh - 72px) !important;
+    margin-top: 72px !important; 
+    background-size: cover;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(19, 61, 117, 0.9);
+        
+        top: 0;
+        left: 0;
+        
+    }
+}
 .tp-hero{
     &__pl-pr{
         padding-top: 63px;
-
+        
     }
     &__bg{
         padding-top: 182px;
@@ -197,7 +213,7 @@
 }
 .tp-hero-2 {
     position: relative;
-   
+
 
     &::before {
         content: "";
@@ -217,6 +233,7 @@
     }
 
     &__plr {
+    
         padding-left: 310px;
         padding-right: 310px;
         @media #{$xxxl} { padding: 0 100px; }
@@ -224,11 +241,12 @@
         @media #{$xl} { padding: 0 80px; }
         @media #{$lg}, #{$md} { padding: 0 30px; }
         @media #{$xs} { padding: 0 15px; }
+       
     }
 
     &__title {
         font-weight: 600;
-        font-size: 96px;
+        font-size: 72px;
         line-height: 1;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-mont);
@@ -236,9 +254,9 @@
         z-index: 2;
         position: relative;
         @media #{$xxl} { font-size: 77px; }
-        @media #{$xl}, #{$lg} { font-size: 80px; }
+        @media #{$xl}, #{$lg} { font-size: 70px; }
         @media #{$md} { font-size: 65px; }
-        @media #{$xs} { font-size: 46px; }
+        @media #{$xs} {margin-top: 27%; font-size: 46px; }
     }
 
     &__btn {

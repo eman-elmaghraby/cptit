@@ -3,8 +3,14 @@
 /*----------------------------------------*/
 /*  18. PAYMENT CSS START
 /*----------------------------------------*/
-
+.bg-payment{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
 .tp-payment{
+ 
     &__mlr{
         margin-left: 100px;
         margin-right: 100px;
@@ -25,6 +31,7 @@
         padding: 55px 70px;
         overflow: hidden;
         min-height: 440px;
+    
         @media #{$md}{
             padding: 35px;
         }
@@ -34,8 +41,8 @@
     }
     &__title{
         color: white;
-        font-weight: 600;
-        font-size: 30px;
+        font-weight: 500;
+        font-size: 36px;
         line-height: 40px;
         font-family: var(--tp-ff-mont);
         padding-bottom: 10px;
@@ -146,12 +153,12 @@
     }
     &__shape-5{
         position: absolute;
-        bottom: -26%;
-        right: -3%;
+        bottom: -2%;
+        right: -2%;
     }
     &__shape-6{
         position: absolute;
-        bottom: -2%;
+        bottom: 3%;
         right: -2%;
         
        
@@ -175,13 +182,13 @@
     &__shape-9{
         position: absolute;
         bottom: -3%;
-        right: -2%;
+        right: 8%;
         
     }
     &__shape-10{
         position: absolute;
         bottom: 7%;
-        right: 3%;
+        right: 7%;
     
     }
     &__shape-11{
@@ -208,7 +215,7 @@
 .tp-payment-method{
     
     &__space{
-        padding-bottom: 250px;
+        padding-bottom: 200px;
         @media #{$xs}{
             padding-bottom: 100px;
         }
@@ -217,7 +224,6 @@
         display: inline-block;
         & img{
             border-radius: 50%;
-           
             border-radius: 100px;
            
         }
@@ -922,7 +928,7 @@
     }
     &__wrapper{
         padding-top: 170px;
-        padding-bottom: 150px;
+        padding-bottom: 60px;
         @media #{$xs}{
             padding-top: 130px;
         }

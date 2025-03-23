@@ -8,7 +8,7 @@
         color: var(--tp-theme-3);
     }
     @media #{$lg}{
-        font-size: 40px;
+        font-size: 36px;
     }
     @media #{$md}{
         font-size: 40px;
@@ -21,8 +21,8 @@
     }
 }
 .tp-section-title-lg{
-    font-weight: 500;
-    font-size: 48px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.1;
     letter-spacing: -0.04em;
     color: var(--tp-common-blue-1);
@@ -34,10 +34,10 @@
         font-size: 55px;
     }
     @media #{$lg}{
-        font-size: 40px;
+        font-size: 36px;
     }
     @media #{$md}{
-        font-size: 40px;
+        font-size: 36px;
     }
     @media #{$xs}{
         font-size: 32px;
