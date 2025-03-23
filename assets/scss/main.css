@@ -4630,8 +4630,8 @@ input[type=color] {
 }
 .tp-hero-2__title {
   font-weight: 600;
-  font-size: 80px;
-  line-height: 131%;
+  font-size: 60px;
+  line-height: 125%;
   color: var(--tp-common-white);
   font-family: var(--tp-ff-mont);
   padding-bottom: 35px;
